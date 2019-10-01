@@ -1,35 +1,34 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Lista de tarefas</title>
-</head>
-<body>
-       <!-- <div class = "container__tarefas">
-       
-        <h2>Adicione uma nova tarefa:</h2>
-        <div class = "tarefas" id="input__text">
-            <label for = "tarefaInputValor" class = "tarefa__label">Tarefa</label>
-            <input type = "text" class = "tarefa__input" id = "idTarefaInput" placeholder = "Insira Tarefa">
-        </div>
-        <div class = "todosOsBotoes">
-            <button class = "btn__criarTarefas"> Criar Tarefa </button>
-        </div>
-
-        <div class = "tarefas__existentes">
-        </div>
-    </div>
- -->
-<section class = "catalogo__tarefa" id = "tarefa__catalogo">
-        <h2 class = h2>Adicione uma nova tarefa:</h2>
-
-    <ul class = lista__catalogo id="catalogo__lista">
-
-    </ul>
-
-</section>
-
-    <script src="./js/script.js">  </script>
-</body>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" href="img/checkmark.png" type="image/x-icon" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Lista de Tarefas</title>
+    </head>
+        <body>
+            <section class="container">
+                <div class="principal">
+                    <h1>Lista de Tarefas <br><a>Dois cliques para marcar a atividade como feita, um clique para desmarcar </a></h1>
+                    <form id='formulario'>
+                        <input autocomplete="off" type="text" id='campo' placeholder="Insira uma nova tarefa">
+                        <button id='botao'class="botao" type="submit">ADD</button>
+                    </form>
+                    <div class="botoes">
+                        <button id='excluirTodas'>Excluir tudo</button>
+                        <button id='selecionarTodas'>Selecionar tudo</button>
+                    </div>
+                </div>  
+                <div id='div1'>
+                    <!-- <div class="estilo">
+                        <p>tarefa</p>
+                        <button>X</button>
+                    </div> -->
+                </div>
+            </section>
+        <script src="./js/script.js"></script>   
+    </body>
 </html>
