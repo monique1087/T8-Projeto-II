@@ -22,6 +22,8 @@ form.addEventListener('submit', function(evento){
     divmae.setAttribute('draggable', true);
     tarefas.setAttribute('draggable', true);
     primeiraDiv.setAttribute('draggable', true); 
+
+    
     
     divmae.appendChild(tarefas);
     divmae.appendChild(excluir);
